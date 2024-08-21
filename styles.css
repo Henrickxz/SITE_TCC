@@ -163,7 +163,7 @@ button:hover {
     border: 1px solid #DDDDDD;
     border-radius: 5px;
     font-size: 24px;
-    background-color: #DDDDDD; /* Cor de fundo cinza */
+    background-color: #DDDDDD; 
 }
 
 .verificacao-pagina button {
@@ -275,7 +275,7 @@ button:hover {
 
 .sidebar-patrimonio {
     width: 250px;
-    background-color: #F9F9F9; /* Slightly lighter background color */
+    background-color: #F9F9F9; 
     padding: 20px;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     color: #666666;
@@ -285,33 +285,33 @@ button:hover {
     bottom: 0;
     height: 100vh;
     overflow-y: auto;
-    border-right: 1px solid #E5E5E5; /* Add border to match the sidebar separation */
+    border-right: 1px solid #E5E5E5; 
 }
 
 .sidebar-patrimonio .logo {
     text-align: center;
-    margin-bottom: 10px; /* Adjusted for spacing */
+    margin-bottom: 10px; 
 }
 
 .sidebar-patrimonio .logo img {
-    max-width: 200px; /* Adjusted size */
+    max-width: 200px; 
 }
 
 .sidebar-patrimonio nav a {
     display: block;
     color: #666666;
-    padding: 15px 10px; /* Adjust padding */
+    padding: 15px 10px; 
     text-decoration: none;
-    font-weight: normal; /* Changed to normal to match the lighter font */
-    margin: 5px 0; /* Adjusted for tighter spacing */
-    font-size: 14px; /* Adjusted font size */
+    font-weight: normal; 
+    margin: 5px 0; 
+    font-size: 14px; 
 }
 
 .sidebar-patrimonio nav a.active {
     color: #002060;
-    background-color: #FFFFFF; /* Match the white background */
-    border-left: 4px solid #002060; /* Add the left border to match active state */
-    padding-left: 6px; /* Adjust padding for active state */
+    background-color: #FFFFFF; 
+    border-left: 4px solid #002060; 
+    padding-left: 6px; 
 }
 
 .sidebar-patrimonio nav a:hover {
@@ -319,8 +319,8 @@ button:hover {
 }
 
 .sidebar-patrimonio .section-title {
-    padding: 15px 0 5px 0; /* Adjusted padding */
-    color: #999999; /* Lighter color for section title */
+    padding: 15px 0 5px 0; 
+    color: #999999; 
     font-weight: bold;
     margin: 20px 0 10px 0;
     text-transform: uppercase;
@@ -339,31 +339,31 @@ button:hover {
 }
 
 .main-content-patrimonio {
-    margin-left: 250px; /* Mantém a margem igual à largura da sidebar */
-    padding: 40px 60px; /* Ajuste no padding para melhor espaçamento */
-    background-color: #FFFFFF; /* Fundo branco para combinar com a área de conteúdo */
-    box-sizing: border-box; /* Garante que o padding não afete a largura total */
-    min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
-    overflow: hidden; /* Evita overflow de conteúdo */
+    margin-left: 250px; 
+    padding: 40px 60px; 
+    background-color: #FFFFFF; 
+    box-sizing: border-box; 
+    min-height: 100vh; 
+    overflow: hidden; 
 }
 
 .main-content-patrimonio h2 {
-    color: #002060; /* Cor azul escuro para os títulos */
-    font-size: 24px; /* Tamanho de fonte maior para dar destaque */
-    font-weight: bold; /* Texto em negrito para ênfase */
-    margin-bottom: 20px; /* Espaçamento extra abaixo do título */
+    color: #002060; 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
 }
 
 .main-content-patrimonio p {
-    color: #666666; /* Cor cinza para o texto dos parágrafos */
-    font-size: 16px; /* Tamanho de fonte padrão para melhor leitura */
-    margin-bottom: 20px; /* Espaçamento consistente entre os parágrafos */
-    line-height: 1.5; /* Espaçamento entre linhas para melhor leitura */
+    color: #666666; 
+    font-size: 16px; 
+    margin-bottom: 20px; 
+    line-height: 1.5; 
 }
 
-/* Garantir que os filhos dentro de .main-content-patrimonio estejam bem alinhados */
+
 .main-content-patrimonio > * {
-    margin-bottom: 20px; /* Espaçamento padrão entre todos os elementos */
+    margin-bottom: 20px; 
 }
 .form-group-patrimonio {
     margin-bottom: 20px;
