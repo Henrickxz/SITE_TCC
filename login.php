@@ -33,3 +33,4 @@
     // Fechar a conexão (opcional, pois PHP fecha automaticamente no final)
     mysqli_close($con);
 ?>
+

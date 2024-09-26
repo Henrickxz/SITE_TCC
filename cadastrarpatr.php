@@ -39,3 +39,4 @@ exit();
 // Fechar a conexão
 mysqli_close($con);
 ?>
+
