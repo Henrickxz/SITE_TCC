@@ -1,3 +1,433 @@
+<<<<<<< HEAD
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bgimg.png');
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.login-box {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+    position: relative;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    color: #666666;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #D4A518;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.forgot-password:hover {
+    color: #b48c12;
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #D4A518;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b48c12;
+}
+
+.verificacao-pagina {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bgimg.png');
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.verificacao-pagina .container {
+    text-align: center;
+}
+
+.verificacao-pagina .login-box {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    position: relative;
+}
+
+.verificacao-pagina .back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.verificacao-pagina .logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.verificacao-pagina h2 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.verificacao-pagina p {
+    color: #666666;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.verificacao-pagina .input-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.verificacao-pagina .input-group input {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #DDDDDD; /* Cor de fundo cinza */
+}
+
+.verificacao-pagina button {
+    width: 100%;
+    padding: 12px;
+    background-color: #D4A518;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.verificacao-pagina button:hover {
+    background-color: #b48c12;
+}
+
+.redefinir-senha-pagina {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #002060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.redefinir-senha-pagina .container {
+    text-align: center;
+}
+
+.redefinir-senha-pagina .login-box {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    position: relative;
+}
+
+.redefinir-senha-pagina .back-arrow {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+.redefinir-senha-pagina .logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.redefinir-senha-pagina h2 {
+    color: #000000;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.redefinir-senha-pagina p {
+    color: #666666;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.redefinir-senha-pagina .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.redefinir-senha-pagina .input-group label {
+    display: block;
+    color: #666666;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.redefinir-senha-pagina .password-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.redefinir-senha-pagina button {
+    width: 100%;
+    padding: 12px;
+    background-color: #D4A518;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.redefinir-senha-pagina button:hover {
+    background-color: #b48c12;
+}
+
+/* Estilos para a nova página Patrimônio */
+
+.sidebar-patrimonio {
+    width: 250px;
+    background-color: white; /* Slightly lighter background color */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    color: #666666;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #E5E5E5; /* Add border to match the sidebar separation */
+}
+
+.sidebar-patrimonio .logo {
+    text-align: center;
+    margin-bottom: 10px; /* Adjusted for spacing */
+}
+
+.sidebar-patrimonio .logo img {
+    max-width: 200px; /* Adjusted size */
+}
+
+.sidebar-patrimonio nav a {
+    display: block;
+    color: #666666;
+    padding: 15px 10px; /* Adjust padding */
+    text-decoration: none;
+    font-weight: normal; /* Changed to normal to match the lighter font */
+    margin: 5px 0; /* Adjusted for tighter spacing */
+    font-size: 14px; /* Adjusted font size */
+}
+
+.sidebar-patrimonio nav a.active {
+    color: #002060;
+    background-color: #FFFFFF; /* Match the white background */
+    border-left: 4px solid #002060; /* Add the left border to match active state */
+    padding-left: 6px; /* Adjust padding for active state */
+}
+
+.sidebar-patrimonio nav a:hover {
+    color: #002060;
+}
+
+.sidebar-patrimonio .section-title {
+    padding: 15px 0 5px 0; /* Adjusted padding */
+    color: #999999; /* Lighter color for section title */
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.sidebar-patrimonio .logout {
+    color: #666666;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.main-content-patrimonio {
+    margin-left: 250px; /* Mantém a margem igual à largura da sidebar */
+    padding: 40px 60px; /* Ajuste no padding para melhor espaçamento */
+    background-color: #FFFFFF; /* Fundo branco para combinar com a área de conteúdo */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total */
+    min-height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+    overflow: hidden; /* Evita overflow de conteúdo */
+}
+
+.main-content-patrimonio h2 {
+    color: #002060; /* Cor azul escuro para os títulos */
+    font-size: 24px; /* Tamanho de fonte maior para dar destaque */
+    font-weight: bold; /* Texto em negrito para ênfase */
+    margin-bottom: 20px; /* Espaçamento extra abaixo do título */
+}
+
+.main-content-patrimonio p {
+    color: #666666; /* Cor cinza para o texto dos parágrafos */
+    font-size: 16px; /* Tamanho de fonte padrão para melhor leitura */
+    margin-bottom: 20px; /* Espaçamento consistente entre os parágrafos */
+    line-height: 1.5; /* Espaçamento entre linhas para melhor leitura */
+}
+
+/* Garantir que os filhos dentro de .main-content-patrimonio estejam bem alinhados */
+.main-content-patrimonio > * {
+    margin-bottom: 20px; /* Espaçamento padrão entre todos os elementos */
+}
+.form-group-patrimonio {
+    margin-bottom: 20px;
+}
+
+.form-group-patrimonio label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal; 
+    color: #666666; 
+    font-size: 14px; 
+}
+
+.form-group-patrimonio input,
+.form-group-patrimonio select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; 
+    color: #333333; 
+}
+
+.image-placeholder-patrimonio {
+    width: 100%;
+    height: 300px;
+    background-color: #F0F0F0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #D4A518; 
+    margin-bottom: 20px;
+}
+
+.image-placeholder-patrimonio span {
+    font-size: 48px;
+    color: #002060;
+}
+
+.btn-patrimonio {
+    width: 100%;
+    padding: 12px; 
+    background-color: #002060;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-patrimonio:hover {
+    background-color: #003f8a;
+}
+
+=======
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -426,3 +856,4 @@ button:hover {
     background-color: #003f8a;
 }
 
+>>>>>>> 6d886527b248ee55111df552f8e0c23ff8105cdc
